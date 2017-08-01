@@ -20,12 +20,12 @@ public class Main {
 	
 	public static void startApplication()
 	{
-		boolean isApplicationClosed=true;
+		boolean isApplicationStarted=true;
 		boolean isGameInProgress=false;
 		System.out.println("Dashboard Started. Enter Command to continue");
 		Scanner userInputScanner=new Scanner(System.in);
 		Map<String,ArrayList<String>> gameRecord = new HashMap<String,ArrayList<String>>();
-		while (isApplicationClosed)
+		while (isApplicationStarted)
 		{
 			String userInput=userInputScanner.nextLine();
 			String teamOne="";
